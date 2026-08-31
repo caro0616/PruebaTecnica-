@@ -1,0 +1,6 @@
+Parte 3: Diseño de Sistema (15 minutos)
+Caso: Notificaciones EmasT
+
+Diseñe un sistema simple para notificar a los usuarios cuando un producto físico vuelve a estar en stock.
+1. Realice un Diagrama de Clases UML mostrando al menos 4 clases relevantes (ej. Producto, Usuario, Notificador, Suscripción).
+2. Describa brevemente qué estrategia usaría para enviar 10.000 correos simultáneos sin bloquear la aplicación.
