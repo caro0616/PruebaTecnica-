@@ -1,0 +1,13 @@
+Estrategia para enviar 10.000 correos sin bloquear la aplicación, en vez de mandar 
+los 10.000 correos uno por uno mientras el usuario espera, lo cual bloquearía la aplicación 
+por mucho tiempo, lo que haría es usar una cola de tareas, por ejemplo, algo 
+como Celery con Redis, o cualquier sistema de colas, la idea es que cuando un producto 
+vuelve a tener stock, la aplicación simplemente "encola" la tarea de mandar los correos 
+y responde de inmediato al usuario, sin esperar a que se envíen, después, un proceso 
+aparte, que corre en segundo plano, separado de la aplicación principal, va tomando esas 
+tareas de la cola y las procesa una por una, o en pequeños grupos, sin afectar el 
+rendimiento de la app, esto evita que la aplicación se "trabe" esperando que se manden 
+todos los correos, y además, si algún correo falla, se puede reintentar solo ese, sin 
+afectar a los demás
+
+:)
