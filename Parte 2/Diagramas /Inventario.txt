@@ -1,0 +1,21 @@
+El Reto: Motor de Inventario y Reglas de EmasT
+Desarrolle una aplicación simple de gestión de inventario utilizando principios de
+Programación Orientada a Objetos (POO) y diseño de Base de Datos Relacional.
+Requisitos de Desarrollo:
+1. Jerarquía de Clases: Cree una clase base Producto y dos clases derivadas:
+ProductoFisico y ProductoDigital.
+2. Encapsulamiento: Proteja los datos de los ítems mediante modificadores de
+acceso adecuados.
+3. Lógica y Polimorfismo: Implemente un método CalcularPrecioFinal() que
+aplique:
+o Si el producto es Digital, aplicar un 15% de descuento.
+o Si el Stock actual es mayor a 50 unidades, aplicar un 5% de descuento
+adicional (acumulable).
+o Alerta: Si el precio final es menor a 5.000, el sistema debe imprimir una 
+advertencia de "Revisión de Margen Necesaria".
+Requisitos de Base de Datos:
+1. Diseñe un esquema simple para almacenar los productos y sus categorías.
+2. Escriba consultas SQL para:
+o Listar todos los productos disponibles con stock menor a 10 unidades.
+o Calcular el promedio de precios de productos por cada categoría
+existente.
