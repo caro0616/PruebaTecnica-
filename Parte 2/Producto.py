@@ -4,14 +4,14 @@ class Producto:
         self._precio = precio
         self._stock = stock
 
-    def obtener_nombre(self):
+    def ObtenerNombre(self):
         return self._nombre
 
-    def obtener_precio(self):
+    def ObtenerPrecio(self):
         return self._precio
 
-    def obtener_stock(self):
+    def ObtenerStock(self):
         return self._stock
 
-    def calcular_precio_final(self):
+    def CalcularPrecioFinal(self):
         return self._precio
