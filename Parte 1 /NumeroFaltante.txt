@@ -1,0 +1,4 @@
+1.4 El Número Faltante (10 minutos):
+Se le entrega una lista que contiene $n-1$ números en el rango de $1$ a $n$. No hay
+duplicados. Encuentre el número que falta en la secuencia.
+• Ejemplo: Rango de 1 a 5, lista [1, 2, 4, 5] -> Salida: 3

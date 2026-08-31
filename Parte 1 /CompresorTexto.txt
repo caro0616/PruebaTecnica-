@@ -1,0 +1,5 @@
+1.3 Compresor de Texto (10 minutos):
+Implemente un método para realizar una compresión básica de cadenas utilizando el
+recuento de caracteres repetidos. Si la cadena "comprimida" no es más pequeña que
+la original, debe devolver la original.
+• Ejemplo: Entrada: aabcccccaaa -> Salida: a2b1c5a3.
