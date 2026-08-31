@@ -1,4 +1,4 @@
-from producto import Producto
+from Producto import Producto
 
 class ProductoDigital(Producto):
     def __init__(self, Nombre, Precio, Stock):
